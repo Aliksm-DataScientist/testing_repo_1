@@ -1,9 +1,0 @@
-stages:
-  train_model:
-    cmd: python test.py
-    deps:
-    - data/hugging_face.csv
-    - test.py
-    outs:
-    - spam_ham_model.pkl
-    - vectorizer.pkl
