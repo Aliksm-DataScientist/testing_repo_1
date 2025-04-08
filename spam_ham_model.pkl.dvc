@@ -1,5 +1,5 @@
 outs:
-- md5: 26ce0af5befbae8628404282b9403337
-  size: 719499
+- md5: 4cfd715df57d0ed6be800cfde4a1bc3d
+  size: 439455
   hash: md5
   path: spam_ham_model.pkl

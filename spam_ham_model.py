@@ -21,7 +21,7 @@ X_vectorized = vectorizer.fit_transform(X)
 X_train, X_test, y_train, y_test = train_test_split(X_vectorized, y, test_size=0.25, random_state=42)
 
 # Train the model
-model = SVC(kernel='linear') 
+model = LogisticRegression() 
 model.fit(X_train, y_train)
 
 # Test the model
