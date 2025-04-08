@@ -21,7 +21,7 @@ X_vectorized = vectorizer.fit_transform(X)
 X_train, X_test, y_train, y_test = train_test_split(X_vectorized, y, test_size=0.25, random_state=42)
 
 # Train the model
-model = SVC(kernel='linear') 
+model = LogisticRegression() 
 model.fit(X_train, y_train)
 
 # Test the model
@@ -30,8 +30,8 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy}")
 
 # Save the model and vectorizer
-joblib.dump(model, "spam_ham_model.pkl")
-joblib.dump(vectorizer, "vectorizer.pkl")
+joblib.dump(model, "spam_ham_model_3.pkl")
+joblib.dump(vectorizer, "vectorizer_3.pkl")
 
 # Check the code -----------------------------------------------------------------------------
 

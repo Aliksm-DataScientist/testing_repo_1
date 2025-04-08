@@ -1,4 +1,6 @@
 [core]
-    remote = myremote
+    remote = myremotee
 ['remote "myremote"']
     url = D:\Storage_folder_2
+['remote "myremotee"']
+    url = D:\Storage_3
