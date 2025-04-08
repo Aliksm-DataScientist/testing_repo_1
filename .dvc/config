@@ -1,0 +1,4 @@
+[core]
+    remote = anyname
+['remote "anyname"']
+    url = D:\Storage_folder_2
