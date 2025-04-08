@@ -1,0 +1,22 @@
+schema: '2.0'
+stages:
+  stage_one:
+    cmd: python app.py
+    deps:
+    - path: app.py
+      hash: md5
+      md5: 6f4540b4a116f51f11a1cb1c96af6bec
+      size: 1153
+    - path: data/hugging_face.csv
+      hash: md5
+      md5: a6474d8e858dc2bd14818f24ddb40eaf
+      size: 5959244
+    outs:
+    - path: spam_ham_model_1.pkl
+      hash: md5
+      md5: 26ce0af5befbae8628404282b9403337
+      size: 719499
+    - path: vectorizer_1.pkl
+      hash: md5
+      md5: 10eda0a8e3fa4ccf0855273b4a2f6906
+      size: 736016
