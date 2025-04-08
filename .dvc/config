@@ -1,0 +1,4 @@
+[core]
+    remote = aliksm_storage_one
+['remote "aliksm_storage_one"']
+    url = D:\storage_1
