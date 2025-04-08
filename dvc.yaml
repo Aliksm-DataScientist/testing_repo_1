@@ -1,0 +1,9 @@
+stages:
+  stage_one:
+    cmd: python app.py
+    deps:
+    - app.py
+    - data/hugging_face.csv
+    outs:
+    - spam_ham_model_1.pkl
+    - vectorizer_1.pkl
