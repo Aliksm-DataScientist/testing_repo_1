@@ -7,3 +7,11 @@ stages:
     outs:
     - spam_ham_model_1.pkl
     - vectorizer_1.pkl
+  stage_two:
+    cmd: python app.py
+    deps:
+    - app.py
+    - data/hugging_face.csv
+    outs:
+    - spam_ham_model_2.pkl
+    - vectorizer_2.pkl
