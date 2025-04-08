@@ -28,5 +28,5 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy}")
 
 # Save the model and vectorizer
-joblib.dump(model, "spam_ham_model_1.pkl")
-joblib.dump(vectorizer, "vectorizer_1.pkl")
+joblib.dump(model, "spam_ham_model_2.pkl")
+joblib.dump(vectorizer, "vectorizer_2.pkl")
